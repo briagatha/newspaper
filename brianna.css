@@ -1,14 +1,14 @@
 h1 {
   color: black;
   text-align: center;
-  font-size: 60px; 
+  font-size: 55px; 
   font-family: "Times New Roman";
 }
 
 h2 {
   color: black;
   text-align: center;
-  font-size: 54px;
+  font-size: 35px;
   font-family: "Times New Roman";
 }
 
@@ -21,9 +21,16 @@ h2 {
   -moz-column-gap: 40px; /* Firefox */
   column-gap: 40px;
 
-  -webkit-column-rule: 8px outset blue;
-  -moz-column-rule: 8px outset blue;
-  column-rule: 8px outset blue;
+  -webkit-column-rule: 10px outset blue;
+  -moz-column-rule: 10px outset blue;
+  column-rule: 10px outset blue;
+}
+.picture {
+	width: 200px;
+	height: 300px;
 }
 
-
+img {
+	float: left;
+	margin-right: 10px
+}
